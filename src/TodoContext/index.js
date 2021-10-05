@@ -29,7 +29,6 @@ function TodoProvider(props){
         });
     
       }
-   
       const addTodo = (text) => {
         const newTodos = [...todos];
         newTodos.push({
