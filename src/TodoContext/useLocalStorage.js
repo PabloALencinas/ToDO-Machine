@@ -5,7 +5,6 @@ function useLocalStorage(itemName, initialValue) {
     const [loading, setLoading] = React.useState(true);
     const [item, setItem] = React.useState(initialValue);
   
-  
     React.useEffect(() => {
       setTimeout(() => {
         try {
