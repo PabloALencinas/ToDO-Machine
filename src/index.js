@@ -6,8 +6,5 @@ import './index.css';
 ReactDOM.render(
   <App />,
   document.getElementById('root'),
-  <BrowserRouter basename={window.location.pathname || ''}>,
-  <Route exact path="/" component={Index} />,
-  </BrowserRouter>,
 );
 
